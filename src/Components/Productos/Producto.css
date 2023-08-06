@@ -1,0 +1,161 @@
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: var(--color-background);
+    height: 27rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-gap: 10px;
+    /* justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; */
+    margin-left: 5rem;
+    margin-top: -4rem;
+    margin-bottom: 29rem;
+}
+
+.card {
+    flex: 1;
+    flex: 1;
+    width: 10rem;
+    height: 17rem;
+    z-index: 3;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 246, 231);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    /* Transición suave para el efecto */
+}
+
+.card:hover {
+    transform: translateX(-5px) rotate(-5deg);
+    /* Aplicar la sacudida al hacer hover */
+}
+
+.card::after {
+    content: ""; 
+    position: absolute;
+    bottom: -10px; 
+    left: 0px; 
+    right: 0px; 
+    height: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 0.7rem; 
+    filter: blur(5px);
+}
+
+.imagen-card-panettone {
+    height: 10rem;
+    width: 100%;
+    background-image: url('./img/pan\ dulce.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+}
+
+.imagen-card-alfajores {
+    height: 10rem;
+    width: 100%;
+    background-image: url('./img/alfajores-de-maicena.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+
+}
+
+.imagen-card-pan {
+    height: 10rem;
+    width: 100%;
+    background-image: url('./img/pan.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+
+}
+
+.img-card {
+    width: 15rem;
+    height: auto;
+}
+
+.item-texto {
+    position: relative;
+    top: 5.2rem;
+    width: 6rem;
+    color: var(--color-text-1);
+}
+
+.encabezado-2 {
+    margin-top: 4rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-productos {
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+
+.descripcion-productos {
+    text-align: start;
+    width: 20rem;
+}
+
+.img-productos {
+    position: absolute;
+    z-index: 2;
+    top: 13rem;
+    right: 30rem;
+    
+}
+
+
+.llamada-productos {
+    background-color: var(--color-background);
+    margin-top: 1.5rem;
+}
+
+.boton-producto {
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-1);
+    transition: background-color 0.5s;
+
+}
+
+.boton-producto:hover {
+    background-color: rgb(196, 142, 43);
+    color: white;
+}
+
+.svg-productos {
+    position: absolute;
+    z-index: 2;
+    top: -10.5rem;
+    right: 0;
+    width: 60%;
+}

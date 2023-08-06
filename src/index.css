@@ -1,0 +1,26 @@
+body {
+  font-family: var(--tipografia-ppal);
+}
+
+h1 {
+  color: var(--color-title);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+:root {
+  --color-background: #f1c167;
+  --color-text: rgba(220, 220, 220, 1);
+  --color-text-1: rgb(196, 142, 43);
+  --color-title: rgb(196, 142, 43);
+  --color-subtitle: rgb(245, 217, 164);
+  --color-boton: rgb(241, 193, 103);
+
+  --tipografia-ppal: "Calibri";
+  --tipografia-sec: "Arial";
+}

@@ -1,0 +1,71 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.encabezado {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.img-hero {
+    max-width: 40rem;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.titulo-hero {
+    width: 5rem;
+    color: var(--color-subtitle);
+
+}
+
+.subtitulo-hero-1 {
+    text-align: start;
+    color: var(--color-title);
+    width: 22rem;
+}
+
+
+.subtitulo-hero-2 {
+    text-align: start;
+    color: var(--color-title);
+    position: absolute;
+    z-index: 2;
+    width: 22rem;
+
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.oculto {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+
+.boton-contacto {
+    border-radius: 1rem;
+    background-color: var(--color-boton);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.boton-contacto:hover {
+    color: white;
+    background-color: rgb(245, 217, 164);
+}

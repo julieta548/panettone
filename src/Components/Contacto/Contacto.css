@@ -19,3 +19,9 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+@media (max-width: 375px) {
+    .contacto {
+        margin-top: 0rem;
+    }
+}

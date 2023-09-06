@@ -287,7 +287,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 100%;
+        height: 142rem;
     }
 
     .svg-productos {
@@ -333,7 +333,7 @@
     }
 
     .img-productos-2 {
-        left: 2rem;
+        left: 6rem;
         top: 123rem;
         max-width: 12rem;
         height: auto;

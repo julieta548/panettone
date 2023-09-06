@@ -1,0 +1,21 @@
+.contacto {
+    height: 18rem;
+    background-color: rgb(245, 217, 164);
+    margin-top: 15rem;
+    margin-bottom: 0rem;
+}
+
+.contacto__contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+}
+
+.derechos {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}

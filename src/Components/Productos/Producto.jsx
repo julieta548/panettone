@@ -22,7 +22,7 @@ function Producto() {
                     <div className="imagen-card-panettone">
                     </div>
                     <div className="superposicion">
-                        <h3 className='precio'>$???</h3>
+                        <h3 className='precio'></h3>
                         <h2 className='nombre'>Pan dulce clásico</h2>
                         <p className='vermas'>Ver más</p>
                     </div>
@@ -49,7 +49,7 @@ function Producto() {
                 <div className="card" data-bs-toggle="modal" data-bs-target="#chispas">
                     <div className="imagen-card-panettone"></div>
                     <div className="superposicion">
-                        <h3 className='precio'>$???</h3>
+                        <h3 className='precio'></h3>
                         <h2 className='nombre'>Pan dulce chispas de chocolate</h2>
                         <p className='vermas'>Ver más</p>
                     </div>
@@ -77,7 +77,7 @@ function Producto() {
                     <div className="imagen-card-panettone">
                     </div>
                     <div className="superposicion">
-                        <h3 className='precio'>$???</h3>
+                        <h3 className='precio'></h3>
                         <h2 className='nombre'>Pan dulce chispas y frambuesa</h2>
                         <p className='vermas'>Ver más</p>
                     </div>

@@ -3,7 +3,7 @@ import './Contacto.css'
 
 function Contacto() {
   return (
-    <div className='contacto'>
+    <div className='contacto' id='contacto'>
       <div className="contacto__contenedor">
         <h1 className='marca'>PANETTONE</h1>
         <p className='derechos'>2023</p>

@@ -13,13 +13,13 @@ function Navbar() {
                     <div className="collapse navbar-collapse botones" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a className="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Precios</a>
+                                <a className="nav-link" href="#productos">Precios</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contacto</a>
+                                <a className="nav-link" href="#contacto">Contacto</a>
                             </li>
                            
                         </ul>

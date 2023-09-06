@@ -1,0 +1,32 @@
+.navbar {
+
+}
+
+.navegacion {
+    position: fixed;
+    z-index: 7;
+    width: 100%;
+    height: 15%;
+    background-color: #fce1ae !important;
+}
+
+.contenedor {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-top: 2rem;
+}
+
+.marca {
+    font-size: 50px !important;
+    color: #ebaa32 !important;
+}
+
+.nav-link {
+    color: #ebaa32 !important;
+    font-weight: 700;
+}
+
+.botones {
+}

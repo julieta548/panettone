@@ -24,7 +24,10 @@ function Hero() {
                 <h1 className={`subtitulo-hero-1 ${isVisible ? 'visible' : 'oculto'}`}>compartir algo dulce en familia</h1>
                 <h1 className={`subtitulo-hero-2 ${isVisible ? 'oculto' : 'visible'}`}>probar algo casero y rico</h1>
                 <div className="llamada-contacto">
-                    <button className='btn boton-contacto'>¡Quiero probarlo!</button>
+                    <a href='https://api.whatsapp.com/send?phone=542617232067&text=Hola!%20Quiero%20hacerte%20un%20pedido...
+'>
+                        <button className='btn boton-contacto'>¡Quiero probarlo!</button>
+                    </a>
                 </div>
             </div>
 

@@ -392,3 +392,14 @@
         font-size: 32px !important;
     }
 }
+
+@media (max-width: 375px) {
+
+    .productos {
+        height: 51rem;
+    }
+
+    .marca {
+        font-size: 43px !important;
+    }
+}

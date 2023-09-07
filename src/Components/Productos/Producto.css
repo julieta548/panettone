@@ -33,15 +33,9 @@
     align-items: center;
     background-color: rgb(255, 246, 231);
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
     position: relative;
-    /* Transición suave para el efecto */
 }
 
-.card:hover {
-    transform: translateX(-5px) rotate(-5deg);
-    /* Aplicar la sacudida al hacer hover */
-}
 
 .card::after {
     content: "";
@@ -171,6 +165,7 @@
     z-index: 1;
     top: 25rem;
     width: 37rem;
+    display: none;
 }
 
 .superposicion {

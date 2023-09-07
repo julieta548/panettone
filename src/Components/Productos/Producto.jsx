@@ -2,33 +2,6 @@ import React from 'react'
 import './Producto.css'
 
 function Producto() {
-
-    const cardsContainer = document.querySelector('.cards');
-    const prevButton = document.getElementById('prevBtn');
-    const nextButton = document.getElementById('nextBtn');
-
-    let currentIndex = 0;
-    const cardWidth = document.querySelector('.card').offsetWidth;
-
-    nextButton.addEventListener('click', () => {
-        if (currentIndex < cardsContainer.children.length - 1) {
-            currentIndex++;
-            translateCards();
-        }
-    });
-
-    prevButton.addEventListener('click', () => {
-        if (currentIndex > 0) {
-            currentIndex--;
-            translateCards();
-        }
-    });
-
-    function translateCards() {
-        const translateX = -currentIndex * cardWidth;
-        cardsContainer.style.transform = `translateX(${translateX}px)`;
-    }
-
     return (
         <div className='productos' id='productos'>
             <svg className='svg-productos' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1c167" fill-opacity="1" d="M0,320L40,304C80,288,160,256,240,250.7C320,245,400,267,480,234.7C560,203,640,117,720,101.3C800,85,880,139,960,160C1040,181,1120,171,1200,149.3C1280,128,1360,96,1400,80L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
@@ -44,7 +17,6 @@ function Producto() {
 '><button className='btn boton-producto'>Hacer un pedido</button></a>
                 </div>
             </div>
-
             <div className="cards">
                 <div className="card" data-bs-toggle="modal" data-bs-target="#clasico">
                     <div className="imagen-card-panettone">

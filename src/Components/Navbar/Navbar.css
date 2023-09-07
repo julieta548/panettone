@@ -39,4 +39,8 @@
         height: 23%;
         background-color: #fce1ae !important;
     }
+
+    .menu {
+        display: none !important;
+    }
 }

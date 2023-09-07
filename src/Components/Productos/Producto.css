@@ -365,4 +365,30 @@
     .cards {
         margin-top: 50rem;
     }
+
+    .img-productos-2 {
+        display: none;
+    }
+
+    .img-productos {
+        left: 4.5rem;
+    }
+
+    .marca {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 310px) {
+    .productos {
+        height: 52rem;
+    }
+
+    .cards {
+        top: 53rem;
+    }
+
+    .marca {
+        font-size: 32px !important;
+    }
 }

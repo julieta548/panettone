@@ -399,7 +399,7 @@
         height: 51rem;
     }
 
-    .marca {
+    .marca, .navbar-brand {
         font-size: 32px !important;
     }
 }

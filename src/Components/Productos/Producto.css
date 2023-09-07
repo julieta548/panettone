@@ -340,3 +340,29 @@
     }
 
 }
+
+@media (max-width: 375px) {
+    .clasico {
+        display: none;
+    }
+
+    .chispas {
+        display: none;
+    }
+
+    .frambuesa {
+        display: none;
+    }
+
+    .pan {
+        display: none;
+    }
+
+    .productos {
+        height: 47rem;
+    }
+
+    .cards {
+        margin-top: 50rem;
+    }
+}

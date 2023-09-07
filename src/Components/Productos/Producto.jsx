@@ -18,7 +18,7 @@ function Producto() {
                 </div>
             </div>
             <div className="cards">
-                <div className="card" data-bs-toggle="modal" data-bs-target="#clasico">
+                <div className="card clasico" data-bs-toggle="modal" data-bs-target="#clasico">
                     <div className="imagen-card-panettone">
                     </div>
                     <div className="superposicion">
@@ -46,7 +46,7 @@ function Producto() {
                     </div>
                 </div>
 
-                <div className="card" data-bs-toggle="modal" data-bs-target="#chispas">
+                <div className="card chispas" data-bs-toggle="modal" data-bs-target="#chispas">
                     <div className="imagen-card-panettone"></div>
                     <div className="superposicion">
                         <h3 className='precio'></h3>
@@ -73,7 +73,7 @@ function Producto() {
                     </div>
                 </div>
 
-                <div className="card" data-bs-toggle="modal" data-bs-target="#frambuesa">
+                <div className="card frambuesa" data-bs-toggle="modal" data-bs-target="#frambuesa">
                     <div className="imagen-card-panettone">
                     </div>
                     <div className="superposicion">
@@ -107,7 +107,7 @@ function Producto() {
                     </div>
                     <h3></h3>
                 </div>
-                <div className="card" data-bs-toggle="modal" data-bs-target="#maicena">
+                <div className="card alfajores" data-bs-toggle="modal" data-bs-target="#maicena">
                     <div className="imagen-card-alfajores"></div>
                     <div className="superposicion">
                         <h3 className='precio'>$1200</h3>
@@ -134,7 +134,7 @@ function Producto() {
                     </div>
                 </div>
 
-                <div className="card" data-bs-toggle="modal" data-bs-target="#integral">
+                <div className="card pan" data-bs-toggle="modal" data-bs-target="#integral">
                     <div className="imagen-card-pan"></div>
                     <div className="superposicion">
                         <h3 className='precio'>$???</h3>

@@ -59,15 +59,14 @@ function Producto() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Pan dulce con chispas de chocolate</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p>Elaborado de forma casera. Contamos con dos tamaños: de 250g y de 500g. Bañados en glasé y húmedos. ¡Encargá el tuyo!</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -87,15 +86,14 @@ function Producto() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Pan dulce con chispas y frambuesa</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p>Elaborado de forma casera. Contamos con dos tamaños: de 250g y de 500g. Bañados en glasé y húmedos. ¡Encargá el tuyo!</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -124,7 +122,7 @@ function Producto() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Elaborados de forma casera. Su tamaño es de 6cm de diametro y se vende por docena. ¡Podés encargar de la medida que necesites!</p>
+                                <p>Elaborados de forma casera. Su tamaño es de 6cm de diámetro y se vende por docena. ¡Podés encargar de la medida que necesites!</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -136,7 +134,7 @@ function Producto() {
                 <div className="card pan" data-bs-toggle="modal" data-bs-target="#integral">
                     <div className="imagen-card-pan"></div>
                     <div className="superposicion">
-                        <h3 className='precio'>$???</h3>
+                        <h3 className='precio'></h3>
                         <h2 className='nombre'>Pan integral</h2>
                         <p className='vermas'>Ver más</p>
                     </div>
@@ -146,15 +144,14 @@ function Producto() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Pan integral</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p>Es casero y fresco, de aproximadamente 600g y podés pedirlo con o sin semillas.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>

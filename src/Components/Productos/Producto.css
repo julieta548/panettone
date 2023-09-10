@@ -405,3 +405,19 @@
         font-size: 32px !important;
     }
 }
+
+@media (max-width: 260px) {
+
+    .productos {
+        height: 51rem;
+    }
+
+    .marca,
+    .navbar-brand {
+        font-size: 32px !important;
+    }
+
+    .cards{
+        margin-top: 56rem;
+    }
+}

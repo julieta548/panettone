@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    
+
 }
 
 .encabezado {
@@ -71,16 +71,20 @@
 }
 
 .fade-element {
-    opacity: 0; /* Establece la opacidad inicial en 0 */
+    opacity: 0;
+    /* Establece la opacidad inicial en 0 */
     animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
     0% {
-        opacity: 0; /* Comienza con opacidad 0 */
+        opacity: 0;
+        /* Comienza con opacidad 0 */
     }
+
     100% {
-        opacity: 1; /* Termina con opacidad 1 (completamente visible) */
+        opacity: 1;
+        /* Termina con opacidad 1 (completamente visible) */
     }
 }
 
@@ -122,4 +126,94 @@
         z-index: 0;
         bottom: 0rem;
     }
+}
+
+@media (max-width: 600px) and (max-height: 300px) {
+
+    .hero {
+        margin-left: 2rem;
+    }
+
+    .img-hero {
+        top: 2rem;
+        width: 16rem;
+    }
+
+    .encabezado {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .subtitulo-hero-1 {
+        width: 17rem;
+    }
+
+    .subtitulo-hero-2 {
+        width: 17rem;
+    }
+
+    .boton-contacto {
+        font-size: 1rem;
+    }
+
+    .productos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80rem;
+    }
+
+    .svg-productos {
+        position: absolute;
+        top: -2.5rem;
+    }
+
+    .encabezado-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 3rem;
+    }
+
+    .descripcion-productos {
+        width: 85%;
+    }
+
+    .cards {
+        margin-top: 50rem;
+        margin-left: 0rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-productos {
+        position: absolute;
+        z-index: 0;
+        top: 0rem;
+        left: 6rem;
+        max-width: 13.5rem;
+        height: auto;
+    }
+
+    .img-productos-2 {
+        top: 44rem;
+        left: 12rem;
+        max-width: 12rem;
+        height: auto;
+        transform: scaleX(-1);
+    }
+
 }

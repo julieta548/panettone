@@ -360,7 +360,7 @@
     }
 
     .productos {
-        height: 47rem;
+        height: 50rem;
     }
 
     .cards {
@@ -417,7 +417,41 @@
         font-size: 32px !important;
     }
 
-    .cards{
+    .cards {
         margin-top: 56rem;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 300px) {
+
+    .clasico,
+    .chispas,
+    .frambuesa,
+    .pan {
+        display: none;
+    }
+
+    .cards {
+        margin-top: 49rem;
+        margin-left: -24rem;
+    }
+
+    .img-productos {
+        z-index: 2;
+        top: 0rem;
+        left: 12rem;
+    }
+
+    .img-productos-2 {
+        top: 23rem;
+        left: 19rem;
+    }
+
+    .productos {
+        height: 41rem;
+    }
+
+    .svg-productos {
+        top: -4.5rem;
     }
 }

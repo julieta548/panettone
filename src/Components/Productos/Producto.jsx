@@ -17,7 +17,7 @@ function Producto() {
 '><button className='btn boton-producto'>Hacer un pedido</button></a>
                 </div>
             </div>
-            <div className="cards slide-top">
+            <div className="cards">
                 <div className="card clasico" data-bs-toggle="modal" data-bs-target="#clasico">
                     <div className="imagen-card-panettone">
                     </div>

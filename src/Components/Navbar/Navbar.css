@@ -1,6 +1,4 @@
-.navbar {
-
-}
+.navbar {}
 
 .navegacion {
     position: fixed;
@@ -28,8 +26,7 @@
     font-weight: 700;
 }
 
-.botones {
-}
+.botones {}
 
 @media (max-width: 375px) {
     .navegacion {
@@ -42,5 +39,19 @@
 
     .menu {
         display: none !important;
+    }
+}
+
+@media (max-width: 600px) and (max-height: 300px) {
+    .navegacion {
+        height: 34%;
+    }
+
+    .marca {
+        font-size: 36px !important;
+    }
+
+    .menu {
+        display: none;
     }
 }

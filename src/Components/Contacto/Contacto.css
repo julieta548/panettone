@@ -25,3 +25,9 @@
         margin-top: 0rem;
     }
 }
+
+@media (max-width: 600px) and (max-height: 300px) {
+    .contacto {
+        margin-top: 0rem;
+    }
+}

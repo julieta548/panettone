@@ -364,7 +364,7 @@
     }
 
     .cards {
-        margin-top: 54rem;
+        margin-top: 56rem;
     }
 
     .img-productos-2 {
@@ -406,7 +406,7 @@
     }
 }
 
-@media (max-width: 260px) {
+@media (max-width: 288px) {
 
     .productos {
         height: 51rem;

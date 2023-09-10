@@ -8,7 +8,7 @@ function Producto() {
             <img className='img-productos' src="img/pibas.png" alt="" />
             <img className='img-productos-2' src="img/piba.png" alt="" />
             <svg className='svg-productos-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1c167" fill-opacity="1" d="M0,288L120,288C240,288,480,288,720,250.7C960,213,1200,139,1320,101.3L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
-            <div className='encabezado-2'>
+            <div className='encabezado-2 slide-top'>
                 <h1 className='titulo-productos'>Nuestros productos</h1>
                 <h3 className='descripcion-productos'>Elaborados de forma casera, vas a encontrar su sabor incomparable.
                     ¡Encarganos tu pedido y disfrutá de nuestras delicias!</h3>
@@ -17,7 +17,7 @@ function Producto() {
 '><button className='btn boton-producto'>Hacer un pedido</button></a>
                 </div>
             </div>
-            <div className="cards">
+            <div className="cards slide-top">
                 <div className="card clasico" data-bs-toggle="modal" data-bs-target="#clasico">
                     <div className="imagen-card-panettone">
                     </div>

@@ -17,7 +17,7 @@ function Hero() {
     }, [isVisible]);
 
     return (
-        <div id='inicio' className='hero'>
+        <div id='inicio' className='hero fade-element'>
             <img className='img-hero' src="img/receta.svg" alt="" />
             <div className='encabezado'>
                 <h1 className='titulo-hero'>Quiero</h1>

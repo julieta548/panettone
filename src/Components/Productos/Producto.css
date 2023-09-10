@@ -215,6 +215,7 @@
     border-radius: 0.7rem;
 }
 
+
 @media (max-width: 768px) {
 
     .productos {
@@ -393,13 +394,14 @@
     }
 }
 
-@media (max-width: 324px) {
+@media (max-width: 333px) {
 
     .productos {
         height: 51rem;
     }
 
-    .marca, .navbar-brand {
+    .marca,
+    .navbar-brand {
         font-size: 32px !important;
     }
 }

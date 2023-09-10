@@ -70,6 +70,20 @@
     background-color: rgb(245, 217, 164);
 }
 
+.fade-element {
+    opacity: 0; /* Establece la opacidad inicial en 0 */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Comienza con opacidad 0 */
+    }
+    100% {
+        opacity: 1; /* Termina con opacidad 1 (completamente visible) */
+    }
+}
+
 @media (max-width: 562px) {
     .hero {
         display: flex;
